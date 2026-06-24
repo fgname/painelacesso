@@ -100,6 +100,7 @@ with p1: render_app_card("Painel Hisense", "https://hisensetecadi.streamlit.app/
 with p2: render_app_card("Painel Zen", "https://zentecadi.streamlit.app/", "🧘")
 with p3: render_app_card("Painel Midea 117", "https://filial117.streamlit.app/", "❄️")
 with p4: render_app_card("Painel SKF", "https://skftemporario.streamlit.app/", "🔩")
+with p5: render_app_card("Painel Sestini", "https://sestinitecadi.streamlit.app/", "🧳")
 
 # --- SETOR 3: INDICADORES ---
 st.markdown('<div class="section-header">📈 Gestão e Indicadores</div>', unsafe_allow_html=True)
