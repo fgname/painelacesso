@@ -95,7 +95,7 @@ with c5: render_app_card("Horímetro Tecadi", "https://htecadi.streamlit.app/", 
 
 # --- SETOR 2: PAINÉIS ---
 st.markdown('<div class="section-header">🖥️ Painéis de Clientes</div>', unsafe_allow_html=True)
-p1, p2, p3, p4, _ = st.columns(5)
+p1, p2, p3, p4, p5 = st.columns(5)
 with p1: render_app_card("Painel Hisense", "https://hisensetecadi.streamlit.app/", "📺")
 with p2: render_app_card("Painel Zen", "https://zentecadi.streamlit.app/", "🧘")
 with p3: render_app_card("Painel Midea 117", "https://filial117.streamlit.app/", "❄️")
